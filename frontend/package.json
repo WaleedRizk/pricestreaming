@@ -1,0 +1,38 @@
+{
+    "name": "ag-grid-react-integration-demo",
+    "version": "1.0.0",
+    "description": "It's a 5 minute get-started guide with examples that you can copy/paste and hit the ground running. Once the basic setup is ready, I'll show you a few features and corresponding configuration options.",
+    "homepage": "https://react-grid.ag-grid.com",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/react-datagrid/integration-demo.git"
+    },
+    "author": "Max Koretskyi <max.koretskyi@ag-grid.com>",
+    "license": "MIT",
+    "keywords": [
+        "react-component",
+        "grid",
+        "data",
+        "table",
+        "js"
+    ],
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
+    "dependencies": {
+        "@stomp/stompjs": "^5.4.4",
+        "ag-grid": "^18.1.2",
+        "ag-grid-react": "^18.1.0",
+        "net": "^1.0.2",
+        "react": "^16.4.2",
+        "react-dom": "^16.4.2",
+        "react-dom-factories": "^1.0.2",
+        "react-scripts": "1.1.4",
+        "react-ticker": "^1.2.2",
+        "sockjs-client": "^1.5.0",
+        "stompjs": "^2.3.3"
+    }
+}
